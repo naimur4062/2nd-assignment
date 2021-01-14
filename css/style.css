@@ -1,0 +1,149 @@
+font-family: 'Roboto', sans-serif;
+
+.women-jacket, .men-jacket{
+    border:0;
+
+}
+.image-bg{
+    position: relative;
+    left: 25px;
+    width: 300px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+   
+}
+.women-jacket .image-1 img{
+    position: relative;;
+    height: 300px;
+    width: 300px;
+    padding: 1em;
+}
+.women-jacket .image-2 img{
+    position: relative;
+    left: 27px;
+    height: 300px;
+    width: 240px;
+    padding: 1em;
+}
+.women-jacket .image-3 img{
+    position: relative;
+    left: 20px;
+    padding: 1em;
+    height: 300px;
+    width: 250px;
+}
+.image-a img{
+    position: relative;
+    left: 27px;
+    height: 300px;
+    width: 240px;
+    padding: 1em; 
+}
+.image-b img{
+    position: relative;
+    left: 27px;
+    height: 300px;
+    width: 250px;
+    padding: 1em;
+}
+.image-c img{
+    position: relative;
+    left: 30px;
+    height: 300px;
+    width: 230px;
+    padding: 1em;
+}
+h1, h4{
+    color: #363958;
+    font-weight: 700;
+}
+h3{
+    color: #fabe4c;
+    font-weight: 700;
+    font-size: 40px;
+}
+h5{
+   color: rebeccapurple; 
+}
+.btn-color{
+    background-color: #a4bc46;
+    color: white;
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    
+}
+.third-section img{
+    width: 18%;
+    margin-right: 30px;
+   
+}
+.third-sec-row{
+    margin-bottom: 20px;
+}
+#craft-area{
+    width: 100%;
+    height: 420px;
+}
+.profile img{
+    width: 500px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+
+}
+.introduction{
+    margin-top: 100px;
+}
+.profile, .introduction{
+    position: relative;
+    width: 45%;
+}
+.logo img{
+    height: 35px;
+    width: 280px;
+}
+.navbar a{
+    color: #3b3b3b;
+    font-size: 15px;
+    font-weight: 700;
+}
+.header-bg, .penguins-submit{
+    background-color: #fffbf0;
+}
+.logo, .navbar{
+    margin-top: 40px;
+}
+.penguin-submit{
+    background-color: lightgoldenrodyellow;
+    border-radius: 1em;
+}
+.penguin-head{
+    width: 500px;
+    font-weight:900;
+    font-size: 50px;
+    
+}
+.btn:hover{
+    color: white;
+}
+@media (max-width:992px){
+    .first-rp, .second-rp, .third-rp{
+        flex-direction: column;
+    }
+}
+@media (max-width:668px){
+    .first-rp, .second-rp, .third-rp{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
+@media (max-width:992px){
+    .fourth-rp{
+        flex-direction: column;
+    }
+}
+@media (max-width:668px){
+    .fourth-rp{
+        flex-direction: column;
+    }
+}
+
