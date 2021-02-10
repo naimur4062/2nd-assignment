@@ -1,0 +1,84 @@
+/* font-family: 'Roboto', sans-serif; */
+
+.jacketImg{
+    padding: 15px;
+    background-color:#f1f1f1;
+    margin: 0 10px 0 10px;
+    border-radius: 20px;
+}
+#img1 img, #img2 img, #img3  img{
+    height: 270px;
+    width: 220px;
+    
+}
+.jacket-container{
+    border: 0; 
+}
+.card-title{
+    color:#363958;
+    font-weight: 700;
+}
+.price{
+    color: #fabe4c;
+    font-weight: 700;
+    font-size: 40px;
+}
+#btn-color{
+    background-color: #a4bc46;
+    color: white;
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;  
+}
+
+@media (max-width: 1440px){
+    #btn-color{
+        padding:5px 10px 5px 10px;  
+    }
+    .card-title{
+        height: 60px;
+    }
+}
+@media (max-width: 1024px){
+    .card-title{
+        font-weight: 500;
+        height: 60px;
+    }
+}
+@media (max-width:992px){
+    #img1 img, #img2 img, #img3  img{
+        height: 160px;
+        width: 110px;
+        
+    }
+    .priceBtn{
+        display: flex;
+      flex-direction: column !important;
+    }
+}
+@media (max-width: 768px){
+    #img1 img, #img2 img, #img3  img{
+        height: 390px;
+        width: 380px;
+    }
+    .priceBtn{
+        display: flex;
+      flex-direction: row !important;
+    }
+}
+@media (max-width:668px){
+    #img1 img, #img2 img, #img3  img{
+        height: 290px;
+        width: 280px;
+    }
+}
+
+@media (max-width:668px){
+    .priceBtn{
+        display: flex;
+      flex-direction: row !important;
+    }
+    #img1 img, #img2 img, #img3  img{
+        height: 320px;
+        width: 300px;
+    }
+}
